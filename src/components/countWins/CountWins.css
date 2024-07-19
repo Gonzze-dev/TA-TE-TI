@@ -1,0 +1,20 @@
+.CountWinsContainer
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.CountWinX,
+.CountWinO
+{
+    width: 60px;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+}

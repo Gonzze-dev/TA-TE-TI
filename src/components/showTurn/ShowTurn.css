@@ -1,0 +1,30 @@
+.TurnContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.TurnBox
+{
+    display: flex;
+}
+
+.Turn,
+.NoTurn {
+    width: 60px;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.Turn{
+    background-color: rgb(119, 106, 130);
+}

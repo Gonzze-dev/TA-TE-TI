@@ -1,0 +1,25 @@
+
+.square,
+.square-disable
+ {
+    width: 100px;
+    height: 100px; 
+    background-color: rgb(64, 58, 69); 
+    color: white;
+    border: white 0.5px solid;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: rgb(86, 78, 93); 
+  }
+
+  .square-disable {
+    background-color: rgb(86, 78, 93);
+  }
+
+  .letter
+  {
+    font-size: 64px;
+    font-weight: bold;
+  }

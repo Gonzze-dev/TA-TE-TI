@@ -1,0 +1,13 @@
+.ResetCounters{
+    margin-top: 50px;
+    color: white;
+    border: white 2px solid;
+    font-size: 24px;
+    height: 60px;
+    background-color: rgb(64, 58, 69)
+}
+
+.ResetCounters:hover{
+    color: black;
+    background-color: white
+}
