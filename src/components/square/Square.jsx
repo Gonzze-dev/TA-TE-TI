@@ -7,7 +7,7 @@ import { TableContext } from '../../providers/TableProvider'
 import { TurnContext } from '../../providers/TurnProvider'
 
 
-const Cuadrado = ({id}) => {
+const Square = ({id}) => {
   const {tableValues, setTableValues} = useContext(TableContext)
   const {getTurnVal, turn, setTurn} = useContext(TurnContext)
 
@@ -55,4 +55,4 @@ const Cuadrado = ({id}) => {
   )
 }
 
-export  {Cuadrado}
+export  {Square}

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './table.css'
 
-import {Cuadrado} from '../square/Cuadrado'
+import {Square} from '../square/Square'
 import { TableContext } from '../../providers/TableProvider'
 import {PopUpWinner} from '../popUpWinner/PopUpWinner';
 import { ShowTurn } from '../showTurn/ShowTurn';
@@ -67,15 +67,15 @@ const Table = () => {
     <div className='table-container'>
       <h1 className='TitleGame'>TA-TE-TI</h1>
       <div className='table'>
-        <Cuadrado id={0}/>
-        <Cuadrado id={1}/>
-        <Cuadrado id={2}/>
-        <Cuadrado id={3}/>
-        <Cuadrado id={4}/>
-        <Cuadrado id={5}/>
-        <Cuadrado id={6}/>
-        <Cuadrado id={7}/>
-        <Cuadrado id={8}/>
+        <Square id={0}/>
+        <Square id={1}/>
+        <Square id={2}/>
+        <Square id={3}/>
+        <Square id={4}/>
+        <Square id={5}/>
+        <Square id={6}/>
+        <Square id={7}/>
+        <Square id={8}/>
       </div>
 
       <CountWins/>
